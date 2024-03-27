@@ -18,5 +18,5 @@ This repository contains notes about the procedures for using `Dev Containers`.
         - Connect to the application shell: `docker compose exec app /bin/bash`
         - Move to the project directory: `cd /workspaces/practice_devcontainer`
 4. Set up the database and install gems using `bin/setup`
-5. Precompile assets with `rails assets:precompile` (since this repository uses Tailwind CSS)
+5. Precompile assets with `rails tailwindcss:build` (since this repository uses Tailwind CSS)
 6. Start the server with `rails s`
